@@ -7,7 +7,7 @@
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span> 
 					</button>
-				<a class="navbar-brand" href="index.php"><div id="box"><img src="nkn-logo.png" id="logo" alt="logo"></div></a>
+				<a class="navbar-brand" href="index.php"><div id="box"><img src="images/nkn-logo.png" id="logo" alt="logo"></div></a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
@@ -24,6 +24,7 @@
 							<?php }
                                     ?>
 					</li>
+                    <li><a class="git-hover" href="https://github.com/natkenel/portfolio" target="_blank"><i class="fa fa-github"></i></a></li>
 				</ul>
 			</div>
 		</nav>

@@ -8,7 +8,7 @@ $_SESSION = array();
 // Destroy the session.
 session_destroy();
  
-// Redirect to last page or index
+// Redirect to login page
 if (!empty($_SERVER['HTTP_REFERER'])) {
     header("Location: ".$_SERVER['HTTP_REFERER']);
 } else {
