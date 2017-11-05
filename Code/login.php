@@ -50,7 +50,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             save the username to the session */
                             session_start();
                             $_SESSION['username'] = $username;      
-                            header("location: projects.php");
+							if(isset($_SESSION['rdrurl'])) {
+								header('location: '.$_SESSION['rdrurl']);
+							} else {
+								header('location: http://example.com');
+							}
                         } else{
                             // Display an error message if password is not valid
                             $password_err = 'The password you entered was not valid.';
@@ -117,7 +121,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 				</div>
 			</div>
 
-			<?php include("includes/footer.html"); ?>
+			<?php include("includes/footer.php"); ?>
 
 		</div>
 	</body>

@@ -24,7 +24,7 @@
 			color: #494C4E !important;
 		}
 		a:hover {
-			color: #2e66a5 !important;
+			color: #ff811a !important;
 			text-decoration: none !important;
 		}
 		p {
@@ -37,7 +37,7 @@
 			left: 40%;
 		}
 		.parallax {
-			background-image: url("images/hero-banner.jpeg");
+			background-image: url("/images/hero-banner.jpeg");
 			height: 200px;
 			background-size: cover;
 		}
@@ -75,7 +75,7 @@
 			height: 5px;
 			height: 0.2rem;
 			width: 0;
-			background: #2e66a5;
+			background: #ff811a;
 		}
 		a.before:hover:before,
 		a.after:hover:after {
@@ -110,7 +110,7 @@
 			width: 5px;
 			width: 0.2rem;
 			height: 0;
-			background: #2e66a5;
+			background: #ff811a;
 		}
 		.square:before {
 			left: 0;
@@ -147,7 +147,7 @@
 		}
 		.cta-button {
 			border-radius: 5px;
-			border: 1px solid #2e66a5;
+			border: 1px solid #ff811a;
 			padding: 1em 1.5em;
 			display: inline-block;
 			font-size: 1.5em;
@@ -226,8 +226,18 @@
 			transition: all .25s ease;
 			display: inline-block;
 		}
+		.arrow-left {
+			padding-right: 10px;
+			display: inline-block;
+			transition: all 0.25s ease;
+		}
+		a:hover .arrow-left {
+			transform: translateX(-5px);
+			transition: all .25s ease;
+			display: inline-block;
+		}
 		.parallax {
-			background-image: url("images/hero-banner.jpeg");
+			background-image: url("/images/hero-banner.jpeg");
 			height: 400px;
 			background-attachment: fixed;
 			background-position: center;
@@ -264,7 +274,7 @@
 	}
 	
 	.git-hover:hover {
-		color: #2e66a5 !important;
+		color: #ff811a !important;
 	}
 	
 	header {
@@ -302,14 +312,14 @@
 	.cstm-button {
 		width: 100%;
 		background-color: white;
-		border: 2px solid #2e66a5;
+		border: 2px solid #ff811a;
 		border-radius: 4px;
 		color: #494C4E;
 	}
 	
 	.cstm-button:hover {
 		background-color: white;
-		border: 2px solid #2e66a5;
+		border: 2px solid #ff811a;
 		opacity: .4;
 		color: #494C4E;
 	}
@@ -317,14 +327,14 @@
 	.cstm-button2 {
 		width: 100%;
 		background-color: transparent;
-		border: 2px solid #2e66a5;
+		border: 2px solid #ff811a;
 		border-radius: 4px;
 		color: white;
 	}
 	
 	.cstm-button2:hover {
 		background-color: transparent;
-		border: 2px solid #2e66a5;
+		border: 2px solid #ff811a;
 		opacity: .4;
 		color: white;
 	}
@@ -349,8 +359,8 @@
 		top: 4.5em;
 	}
 	
-	.blue {
-		color: #2e66a5;
+	.accent {
+		color: #ff811a;
 	}
 	
 	#myModal {
@@ -383,6 +393,10 @@
 	
 	.cstm-pad3 {
 		margin-top: 40px;
+	}
+	
+	.cstm-pad4 {
+		margin-bottom: 40px;
 	}
 	
 	#box {

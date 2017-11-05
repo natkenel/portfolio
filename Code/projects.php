@@ -1,6 +1,7 @@
 <?php
 // Initialize the session
 session_start();
+$_SESSION['rdrurl'] = $_SERVER['REQUEST_URI'];
 ?>
 	<!DOCTYPE html>
 	<html>
@@ -33,7 +34,7 @@ session_start();
 							<div class="col-xs-12">
 								<div class="card">
 									<a href="login.php">
-										<img src="images/log-in-image.jpeg" class="cstm-img" alt="Log In Image">
+										<img src="/images/log-in-image.jpeg" class="cstm-img" alt="Log In Image">
 									</a>
 									<a href="login.php" class="cta-button overlay-button">Log In<span class="arrow-right">→</span></a>
 									<a class="overlay" href="login.php"></a>
@@ -42,7 +43,7 @@ session_start();
 						</div>
 						<div class="row">
 							<div class="col-xs-12">
-								<p class="blue cstm-pad2">HTML / CSS / PHP / MYSQL</p>
+								<p class="accent cstm-pad2">HTML / CSS / PHP / MYSQL</p>
 							</div>
 						</div>
 					</div>
@@ -53,7 +54,7 @@ session_start();
 							<div class="col-xs-12">
 								<div class="card">
 									<a href="login.php">
-										<img src="images/log-in-image.jpeg" class="cstm-img" alt="Log In Image">
+										<img src="/images/log-in-image.jpeg" class="cstm-img" alt="Log In Image">
 									</a>
 									<a href="login.php" class="cta-button overlay-button">Log In<span class="arrow-right">→</span></a>
 									<a class="overlay" href="login.php"></a>
@@ -62,7 +63,7 @@ session_start();
 						</div>
 						<div class="row">
 							<div class="col-xs-12">
-								<p class="blue cstm-pad2">HTML / CSS / SEO / CONTENT</p>
+								<p class="accent cstm-pad2">HTML / CSS / SEO / CONTENT</p>
 							</div>
 						</div>
 					</div>
@@ -75,17 +76,17 @@ session_start();
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="card">
-									<a href="">
-										<img src="images/effex-zip-code-project.jpeg" class="cstm-img" alt="Effex Project">
+									<a href="/projects/effex.php">
+										<img src="/images/effex-zip-code-project.jpeg" class="cstm-img" alt="Effex Project">
 									</a>
-									<a href="" class="cta-button overlay-button">See Project<span class="arrow-right">→</span></a>
-									<a class="overlay" href=""></a>
+									<a href="/projects/effex.php" class="cta-button overlay-button">See Project<span class="arrow-right">→</span></a>
+									<a class="overlay" href="/projects/effex.php"></a>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-xs-12">
-								<p class="blue cstm-pad2">EFFEX - HTML / CSS / PHP / MySQL<br>CMS - ModX</p>
+								<p class="cstm-pad2"><span class="accent">EFFEX - HTML / CSS / PHP / MySQL</span><br>CMS - ModX</p>
 							</div>
 						</div>
 					</div>
@@ -95,24 +96,24 @@ session_start();
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="card">
-									<a href="">
-										<img src="images/chroma-cars-projects.jpg" class="cstm-img" alt="Effex Project">
+									<a href="/projects/chroma-cars.php">
+										<img src="/images/chroma-cars-projects.jpeg" class="cstm-img" alt="Effex Project">
 									</a>
-									<a href="" class="cta-button overlay-button">See Project<span class="arrow-right">→</span></a>
-									<a class="overlay" href=""></a>
+									<a href="/projects/chroma-cars.php" class="cta-button overlay-button">See Project<span class="arrow-right">→</span></a>
+									<a class="overlay" href="/projects/chroma-cars.php"></a>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-xs-12">
-								<p class="blue cstm-pad2">CHROMA CARS - HTML / CSS / SEO / CONTENT<br>CMS - Ebait</p>
+								<p class="cstm-pad2"><span class="accent">CHROMA CARS - HTML / CSS / SEO / CONTENT</span><br>CMS - Ebait</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<?php } ?>
 
-				<?php include("includes/footer.html"); ?>
+				<?php include("includes/footer.php"); ?>
 
 		</div>
 	</body>
