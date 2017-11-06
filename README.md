@@ -7,4 +7,3 @@ To-Do List:
 Tidy up CSS
 Form Sanitization
 Logout Timer
-Finish Projects Page
